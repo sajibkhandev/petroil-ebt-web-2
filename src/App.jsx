@@ -1,8 +1,11 @@
 import React from 'react'
+import LearnMore from './components/LearnMore/LearnMore'
 
 const App = () => {
   return (
-    <div className='bg-red-500'>App</div>
+    <div className=''>
+      <LearnMore></LearnMore>
+    </div>
   )
 }
 
