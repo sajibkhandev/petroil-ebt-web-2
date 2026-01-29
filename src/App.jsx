@@ -1,8 +1,11 @@
 import React from 'react'
+import Contacts from './components/Contacts.jsx'
 
 const App = () => {
   return (
-    <div className='bg-red-500'>App</div>
+    <div className=''>
+      <Contacts />
+    </div>
   )
 }
 
