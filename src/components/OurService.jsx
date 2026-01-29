@@ -26,7 +26,7 @@ const OurService = () => {
     </div>
     <div className="flex">
       <div className="w-1/2 relative">
-        <Images imgSrc={ServiceOne} className={''}/>
+        <Images imgSrc={ServiceTwo} className={''}/>
         <div className="bg-black opacity-60 absolute top-0 left-0 z-30 h-full w-full"></div>
        <div className="absolute top-1/2 left-1/2 -translate-1/2 z-50 w-172.75"> 
          <p className='text-white text-4xl font-bold pb-12'>Supply of national industries.</p>
@@ -34,7 +34,7 @@ const OurService = () => {
        </div>
       </div>
       <div className="w-1/2 relative">
-        <Images imgSrc={ServiceOne} className={''}/>
+        <Images imgSrc={ServiceThree} className={''}/>
         <div className="bg-black opacity-60 absolute top-0 left-0 z-30 h-full w-full"></div>
        <div className="absolute top-1/2 left-1/2 -translate-1/2 z-50 w-172.75"> 
          <p className='text-white text-4xl font-bold pb-12'>National fuel distribution and supply.</p>
